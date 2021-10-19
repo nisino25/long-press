@@ -1,5 +1,5 @@
 <template>
-<body   :style="[touching? {backgroundColor: 'BlueViolet'} : {backgroundColor: 'black'}]" @touchstart="touching = true;" @touchend="touching = false">
+<body   :style="[touching? {backgroundColor: 'BlueViolet'} : {backgroundColor: 'black'}]" @touchstart="touching = true;" @touchend="touching = false" style="user-select: none">
   <h5 style="color:white; font-size: 200%">Welcome</h5>
 
 </body>
